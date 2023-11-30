@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriculture Crop Yield Prediction</title>
+    <link rel="stylesheet" href="static\css\predict.css" />
+    <script src="static\js\prediction.js"></script>
+  </head>
+  <body class="body">
+    <h2>Agriculture Crop Yield Prediction System</h2>
+    <form id="predictionForm" method="post">
+      <label for="soil">Soil Type:</label>
+      <select class="soil_option" id="soil" name="soil" required>
+        <option value="select">Select Type of Soil</option>
+        <option value="Red">Red</option>
+        <option value="Black">Black</option>
+        <option value="Alluvial">Alluvial</option>
+        <option value="Lateriate">Lateriate</option>
+        <option value="Clay">Clay</option>
+        <option value="Saline">Saline</option>
+      </select>
+      <label for="field2">Temperature:</label>
+      <input id="field2" name="temp" type="number" required />
+
+      <label for="field3">Precipitation:</label>
+      <input id="field3" name="Precipitation" type="number" required />
+
+      <label for="field4">Ph:</label>
+      <input id="field4" name="ph" type="number" min="1" ,max="14" ,required />
+
+      <label for="field5">Humidity:</label>
+      <input id="field5" name="humidity" type="number" required />
+
+      <label for="field6">Irrigation Type:</label>
+
+      <select
+        class="Irrigation_option"
+        id="Irrigation_type"
+        name="Irrigation_type"
+      >
+        <option value="select">Select Type of Irrigation</option>
+        <option value="Drip">Drip Irrigation</option>
+        <option value="Sprinkler">Sprinkler Irrigation</option>
+        <option value="Flood">Flood Irrigation</option>
+      </select>
+      <label for="field6">Irrigation Frequency:</label>
+      <input id="field6" name="Irrigation_Frequency" required />
+
+      <!-- <a href="result"><button type="submit">Predict</button></a> -->
+      <button type="text">Predict</button>
+    </form>
+
+    <div id="result"></div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predicted Crops</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-image: url("diwnload.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(8px);
+      }
+
+      #result {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Predicted Crops</h2>
+
+    <div id="result">
+      <p>Ranked Crops:</p>
+
+      <script>
+        // Get the predicted crops from the URL
+        const crops = [
+          ["Wheat", "96.7"],
+          ["Rice", "89.8"],
+          ["Maize", "80.1"],
+        ];
+        const resultDiv = document.getElementById("result");
+        resultDiv.innerHTML = "<p>Ranked Crops with Percentage of Success:</p>";
+        crops.forEach(([crop, percentage], index) => {
+          resultDiv.innerHTML += `<p>${index + 1}. ${crop} - ${percentage}</p>`;
+        });
+      </script>
+    </div>
+  </body>
+</html>

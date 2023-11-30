@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Input</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fertilizer Suggestion</title>
+    <link rel="stylesheet" href="static\css\predict.css" />
+    <script src="static\js\prediction.js"></script>
+  </head>
+  <body class="body">
+    <h2>Fertilizer Suggestion System</h2>
+    <form id="predictionForm" method="post">
+      <label for="field1">Type of Crop:</label>
+      <select class="soil_option" id="crop" name="crop" required>
+        <option value="select">Select Type of Crop</option>
+        <option value="wheat">Wheat</option>
+        <option value="rice">Rice</option>
+        <option value="barley">Barley</option>
+        <option value="maize">Maize</option>
+        <option value="tomato">Tomato</option>
+        <option value="potato">Potato</option>
+        <option value="onion">Onion</option>
+        <option value="groundnut">Groundnut</option>
+        <option value="millets">Millets</option>
+        <option value="coffee">Coffee</option>
+      </select>
+      <label for="field2">Soil Nitrogen Content:</label>
+      <input id="field2" name="nitrogen" type="number" required />
+
+      <label for="field3">Soil Potassium Content:</label>
+      <input id="field3" name="potassium" type="number" required />
+
+      <label for="field4">Soil Calcium Content:</label>
+      <input
+        id="field4"
+        name="calcium"
+        type="number"
+        min="1"
+        ,max="14"
+        ,required
+      />
+
+      <label for="field5">Soil Moisture Content:</label>
+      <input id="field5" name="moisture" type="number" required />
+
+      <!-- <a href="result"><button type="submit">Predict</button></a> -->
+      <button type="text">Predict</button>
+    </form>
+
+    <div id="result"></div>
+  </body>
+</html>
