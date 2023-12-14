@@ -35,14 +35,18 @@ We have used Naive bayes model to detect the accuracy of the data collected from
 
 <img src="/static/output/Screenshot 2023-11-19 213451.png" width =50%>
 
-## Crop Prediction Page
+### Crop Prediction Page
 <img src="/static/output/Screenshot 2023-11-19 213625.png" width=50%>
 
-## Sample Input
+### Sample Input
 <img src="/static/output/Screenshot 2023-11-19 214806.png" width=50%>
 
-## Sample Ranking of Crops
+### Sample Ranking of Crops
 <img src="/static/output/Screenshot 2023-11-19 213805.png" width=50%>
 
-## Fertilizer Suggestion Page
+### Fertilizer Suggestion Page
 <img src="/static/output/Screenshot 2023-11-19 214307.png" width=50%>
+
+### Sample Output for Fertilizer Suggestion
+<img src="/static/output/Screenshot 2023-12-14 192409.png" width=50%>
+
