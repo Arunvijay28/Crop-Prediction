@@ -18,7 +18,7 @@ It can be implemented in 3 ways:
   1)Forward Chaining
   2)Backtracking
   3)Intelligent Backtracking
-
+  
 In which we have used intelligent Backtracking which is discussed later
 
 ## Intelligent Backtracking
