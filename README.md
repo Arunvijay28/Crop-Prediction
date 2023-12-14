@@ -30,7 +30,7 @@ It get the constraints from the user and based on it finds the specific crops th
 ### Home Screen
 <img src="/static/output/Screenshot 2023-11-19 213414.png" width=50%>
 
-<img src="/ststic/output/Screenshot 2023-11-19 213451.png" width =50%>
+<img src="/static/output/Screenshot 2023-11-19 213451.png" width =50%>
 
 ## Crop Prediction Page
 <img src="/static/output/Screenshot 2023-11-19 213625.png" width=50%>
