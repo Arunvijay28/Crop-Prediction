@@ -8,10 +8,10 @@ It consist of 3 elements:
   3) Constraints
 
 In which :
-Variables: A list containt crops,
-Domains: A set of 10 crops,
-Constraints: Temperature,Precipitation,Humidity etc..,
-Dataset: It has  data taken from government and synthetic data so it has an accuracy of 89% by providing proper dataset it can able to provide crops with an accuracy of 99.5%
+* Variables: A list containt crops,
+* Domains: A set of 10 crops,
+* Constraints: Temperature,Precipitation,Humidity etc..,
+* Dataset: It has  data taken from government and synthetic data so it has an accuracy of 89% by providing proper dataset it can able to provide crops with an accuracy of 99.5%
 
 ## Ways of Implementing
 It can be implemented in 3 ways:
@@ -24,6 +24,9 @@ In which we have used intelligent Backtracking which is discussed later
 ## Intelligent Backtracking
 Intelligent Backtracking:
 It get the constraints from the user and based on it finds the specific crops that satisfy that particular constraint and it will be added in the variables once if a contraint is not satisified it add the previous crop in the variables and does the intelligent backtracking and begins with new crop.
+
+## Naive Bayes
+We have used Naive bayes model to detect the accuracy of the data collected from various websites to make sure that, the prediction made with that particular dataset  is mostly accurate
 
 ## Walkthrough
 
