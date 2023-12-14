@@ -15,9 +15,9 @@ Dataset: It has  data taken from government and synthetic data so it has an accu
 
 ## Ways of Implementing
 It can be implemented in 3 ways:
-  1)Forward Chaining
-  2)Backtracking
-  3)Intelligent Backtracking
+  1) Forward Chaining
+  2) Backtracking
+  3) Intelligent Backtracking
   
 In which we have used intelligent Backtracking which is discussed later
 
@@ -33,9 +33,13 @@ It get the constraints from the user and based on it finds the specific crops th
 <img src="/ststic/output/Screenshot 2023-11-19 213451.png" width =50%>
 
 ## Crop Prediction Page
-
 <img src="/static/output/Screenshot 2023-11-19 213625.png" width=50%>
+
+## Sample Input
+<img src="/static/output/Screenshot 2023-11-19 214806.png" width=50%>
 
 ## Sample Ranking of Crops
 <img src="/static/output/Screenshot 2023-11-19 213805.png" width=50%>
 
+## Fertilizer Suggestion Page
+<img src="/static/output/Screenshot 2023-11-19 214307.png" width=50%>
