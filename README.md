@@ -4,6 +4,7 @@ It a web based application for crop prediction and suggesting fertilizer for a c
 ## Table of Contents
 [Description](#description)  
 [Website Walkthrough](#walkthrough)  
+[Technologies Used](#tu)  
 [CSP](#csp)  
 [Intelligent Backtracking](#ib)  
 [Naive Bayes](#nb)  
@@ -37,6 +38,14 @@ The system also has a feature to suggest a fertilizer based on the  nutrient con
 ### Sample Output for Fertilizer Suggestion
 <img src="/static/output/Screenshot 2023-12-14 192409.png" width=50%>
 
+<a id="tu"></a>
+## Tools Used
+* HTML   -  Interactive UI
+* CSS    -  Styling
+* Python - To implement CSP alogorithm
+* Flask  - Web Framework
+* Matplotlib - Data Visualization
+* Sklearn  - Data Modelling
 <a id="csp"></a>
 ## CSP(Constraint Satisfaction Problem)
 It consist of 3 elements:
