@@ -3,7 +3,7 @@ It a web based application for crop prediction and suggesting fertilizer for a c
 
 ## Table of Contents
 [Description](#description)  
-[Walkthrough](#walkthrough)  
+[Website Walkthrough](#walkthrough)  
 [CSP](#csp)  
 [Intelligent Backtracking](#ib)  
 [Naive Bayes](#nb)  
